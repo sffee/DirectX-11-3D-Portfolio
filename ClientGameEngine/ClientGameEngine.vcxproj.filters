@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GJHClientGameEngine.h">
+      <Filter>MainEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHActorTransform.h">
+      <Filter>Component\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHWorldComponent.h">
+      <Filter>Component\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHRenderManagerComponent.h">
+      <Filter>Component\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHRenderingStruct.h" />
+    <ClInclude Include="GJHContentsComponent.h" />
+    <ClInclude Include="GJHSpriteAnimation.h">
+      <Filter>Component\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHCollisionComponent.h">
+      <Filter>Component\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHContentsSceneComponent.h" />
+    <ClInclude Include="GJHGameEngineGUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>UI\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGUIComponent.h">
+      <Filter>Component\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGrid2DPostEffect.h">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHOutLineEffect.h">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHMaskCullingEffect.h">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHRenderer.h">
+      <Filter>Component\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHUvDistortion.h">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineNeviMesh.h" />
+    <ClInclude Include="GJHFreeCamera.h">
+      <Filter>Component\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHFbxAnimationRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHFontRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGridRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHHeightMapRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHMaskRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHParticleRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHSpriteRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHCamera.h">
+      <Filter>Component\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHLight.h">
+      <Filter>Component\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDefferdLighting.h">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHBoneSlot.h">
+      <Filter>Component\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHFbxRenderer.h">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GJHClientGameEngine.cpp">
+      <Filter>MainEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHActorTransform.cpp">
+      <Filter>Component\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHWorldComponent.cpp">
+      <Filter>Component\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHRenderManagerComponent.cpp">
+      <Filter>Component\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHContentsComponent.cpp" />
+    <ClCompile Include="GJHSpriteAnimation.cpp">
+      <Filter>Component\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHCollisionComponent.cpp">
+      <Filter>Component\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHContentsSceneComponent.cpp" />
+    <ClCompile Include="GJHGameEngineGUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>UI\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineGUI_Base.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGUIComponent.cpp">
+      <Filter>Component\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGrid2DPostEffect.cpp">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHOutLineEffect.cpp">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHMaskCullingEffect.cpp">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHRenderer.cpp">
+      <Filter>Component\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHUvDistortion.cpp">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineNeviMesh.cpp" />
+    <ClCompile Include="GJHFreeCamera.cpp">
+      <Filter>Component\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHFbxAnimationRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHFontRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGridRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHHeightMapRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHMaskRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHParticleRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHSpriteRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHCamera.cpp">
+      <Filter>Component\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHLight.cpp">
+      <Filter>Component\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDefferdLighting.cpp">
+      <Filter>Rendering\PostEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHBoneSlot.cpp">
+      <Filter>Component\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHFbxRenderer.cpp">
+      <Filter>Component\Rendering\Sub</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{2434f956-ebed-416d-bca6-306f1afd4649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Actor">
+      <UniqueIdentifier>{ae10bf01-c409-46c1-af1c-dd6fc5e10acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Scene">
+      <UniqueIdentifier>{0717830a-17a5-4774-a839-099f27b3ce4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainEngine">
+      <UniqueIdentifier>{18a08315-2a1d-4533-9c6b-68b4c83d6929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{634bb86b-f1b6-4ff1-9877-91cbe05a7e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Imgui">
+      <UniqueIdentifier>{5271750d-c978-4ec4-9344-11527d3251ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{ce056a97-caf1-4488-832f-d09f73fbda00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Rendering">
+      <UniqueIdentifier>{77ba169c-62b6-4d2c-847c-59d4eecb157c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\PostEffect">
+      <UniqueIdentifier>{0b01f008-8bb7-4bd4-bec9-9a1cc96c94be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Contents">
+      <UniqueIdentifier>{bea47907-846a-40f4-bfd5-5849e8316570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Rendering\Sub">
+      <UniqueIdentifier>{3c86bc81-c93f-4f9a-974e-c1333774f02d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

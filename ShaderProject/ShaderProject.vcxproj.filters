@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="ParticleCompute.hlsl">
+      <Filter>Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdStatic3DMeshColor.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="2DTextureShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="CircleShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineGrid3D.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="FbxAniShader3D.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="FontShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="HeightMapShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="Mask2DRender.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="Particle.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="Static3DMeshColor.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="TargetMergeShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureShader3D.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="2DTextureMaskShader.hlsl">
+      <Filter>Mask</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdLighting.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdMerge.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="Grid2D.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="MaskCulling.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="OutLine.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="SceneChangeStartShader.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="SceneChangeEndShader.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="UvDistortion.hlsl">
+      <Filter>PostEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="BoxShader.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdHeightMapShader.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="ShadowDepth.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdFbxAniShader3D.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdStatic3DMeshTexture.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="ShadowAniDepth.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdFbxAniColorShader3D.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="DefferdFbxShader3D.hlsl">
+      <Filter>Defferd</Filter>
+    </FxCompile>
+    <FxCompile Include="3DMeshColor.hlsl">
+      <Filter>Forward</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AniHeader.hlsli">
+      <Filter>Header</Filter>
+    </None>
+    <None Include="LightData.hlsli">
+      <Filter>Header</Filter>
+    </None>
+    <None Include="TransformData.hlsli">
+      <Filter>Header</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Compute">
+      <UniqueIdentifier>{3366cda8-3ff6-4ca9-bf0e-3f15a65b08bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defferd">
+      <UniqueIdentifier>{ac3d1a04-2f24-4fc6-a78c-ed1507b8d753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forward">
+      <UniqueIdentifier>{ae765fbf-5763-4c6f-a536-9127fee845a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{8049f1aa-4ee9-4653-a41e-8b3ac4637b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mask">
+      <UniqueIdentifier>{e99bfcb3-1b9d-4bb6-93dc-2a49f07ddee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostEffect">
+      <UniqueIdentifier>{ddd37d61-f4ce-44f8-b48e-281a9f6c09e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GJHGameEngineActor.h" />
+    <ClInclude Include="GJHGameEngineComponent.h" />
+    <ClInclude Include="GJHGameEngineScene.h" />
+    <ClInclude Include="GJHComponentManagement.h" />
+    <ClInclude Include="GJHGameUpdaterInterface.h" />
+    <ClInclude Include="ObjectPre.h" />
+    <ClInclude Include="GJHSceneManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GJHGameEngineActor.cpp" />
+    <ClCompile Include="GJHGameEngineComponent.cpp" />
+    <ClCompile Include="GJHGameEngineScene.cpp" />
+    <ClCompile Include="GJHComponentManagement.cpp" />
+    <ClCompile Include="ObjectPre.cpp" />
+    <ClCompile Include="GJHSceneManager.cpp" />
+  </ItemGroup>
+</Project>

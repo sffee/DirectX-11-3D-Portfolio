@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppMain.cpp" />
+    <ClCompile Include="GJHGameUpdater.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGlobalAppWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingWindow.cpp">
+      <Filter>GUI\RenderingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXWindow.cpp">
+      <Filter>GUI\FbxWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySceneWindow.cpp">
+      <Filter>GUI\PlaySceneWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ContentLogic\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>ContentLogic\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallRobot.cpp">
+      <Filter>ContentLogic\Actor\Monster\SmallRobot</Filter>
+    </ClCompile>
+    <ClCompile Include="ColTestActor.cpp">
+      <Filter>ContentLogic\Actor\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Move_State.cpp">
+      <Filter>ContentLogic\Actor\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Dash_State.cpp">
+      <Filter>ContentLogic\Actor\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Idle_State.cpp">
+      <Filter>ContentLogic\Actor\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Run_State.cpp">
+      <Filter>ContentLogic\Actor\Player\State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{2fb06464-cf34-4666-ba02-909d325aa90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic">
+      <UniqueIdentifier>{81527336-1caa-461c-bb09-d6f1d6bd7386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{9f3ee1c3-c229-4ad1-ae3c-4b34c18e0e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{dd187d78-2b61-4771-83b5-e77018cd3167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor">
+      <UniqueIdentifier>{a28de63f-75ef-415a-9785-3da54079b97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\RenderingWindow">
+      <UniqueIdentifier>{bb1e16b3-f5a4-4a67-a224-74f03ddec21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\FbxWindow">
+      <UniqueIdentifier>{8e7c737f-41f3-41ab-b8fd-60a1a74167cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\PlaySceneWindow">
+      <UniqueIdentifier>{e0944926-04c7-430e-ab1c-d70e8d006cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Player">
+      <UniqueIdentifier>{70334d6c-6e28-41e7-a725-9614cdeb18f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster">
+      <UniqueIdentifier>{bfcfc41a-05e6-471b-be1e-1197052d744e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Monster\SmallRobot">
+      <UniqueIdentifier>{814f0b85-e595-423c-b1ce-b37ee328ddf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Etc">
+      <UniqueIdentifier>{aa734f0e-a238-494e-8775-fb9f67af166c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentLogic\Actor\Player\State">
+      <UniqueIdentifier>{03649d3a-71ba-4261-aded-2c5185914374}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GJHGameUpdater.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGlobalAppWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingWindow.h">
+      <Filter>GUI\RenderingWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXWindow.h">
+      <Filter>GUI\FbxWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySceneWindow.h">
+      <Filter>GUI\PlaySceneWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ContentLogic\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>ContentLogic\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallRobot.h">
+      <Filter>ContentLogic\Actor\Monster\SmallRobot</Filter>
+    </ClInclude>
+    <ClInclude Include="ColTestActor.h">
+      <Filter>ContentLogic\Actor\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>ContentLogic\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

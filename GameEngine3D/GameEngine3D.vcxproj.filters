@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GJHGameEngineDevice.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectResourcesManager.h">
+      <Filter>Resources\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHResBase.h">
+      <Filter>Resources\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectBuffer.h">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectMesh.h">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectVertexBuffer.h">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectRenderTarget.h">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectTexture2D.h">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectVertexShader.h">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectIndexBuffer.h">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectPixelShader.h">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectShader.h">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHVertexHeader.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectRasterizer.h">
+      <Filter>Resources\Res\StaticSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectConstantBuffer.h">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectDepthStencil.h">
+      <Filter>Resources\Res\StaticSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectSampler.h">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectSprite.h">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectBlend.h">
+      <Filter>Resources\Res\StaticSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHMaterial.h">
+      <Filter>RenderingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHTargetPostEffect.h">
+      <Filter>RenderingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectFont.h">
+      <Filter>Resources\Res\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper.h">
+      <Filter>Resources\Res\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectStructuredBuffer.h">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectGeometryShader.h">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHRenderPlayer.h">
+      <Filter>RenderingObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHPlayerBase.h">
+      <Filter>RenderingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHComputePlayer.h">
+      <Filter>RenderingObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectComputeShader.h">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHDirectFbx.h">
+      <Filter>Resources\Res\Fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHLightData.h">
+      <Filter>RenderingObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GJHGameEngineDevice.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectResourcesManager.cpp">
+      <Filter>Resources\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHResBase.cpp">
+      <Filter>Resources\Res</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectBuffer.cpp">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectMesh.cpp">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectVertexBuffer.cpp">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectRenderTarget.cpp">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectTexture2D.cpp">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectVertexShader.cpp">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectIndexBuffer.cpp">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectPixelShader.cpp">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectShader.cpp">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_MeshInit.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_ShaderInit.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_DirectFunc.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectRasterizer.cpp">
+      <Filter>Resources\Res\StaticSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_RasterizerInit.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectConstantBuffer.cpp">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_DepthStencilInit.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectDepthStencil.cpp">
+      <Filter>Resources\Res\StaticSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectSampler.cpp">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_SamplerInit.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectSprite.cpp">
+      <Filter>Resources\Res\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_BlendInit.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectBlend.cpp">
+      <Filter>Resources\Res\StaticSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDevice_Material.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHMaterial.cpp">
+      <Filter>RenderingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHTargetPostEffect.cpp">
+      <Filter>RenderingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectFont.cpp">
+      <Filter>Resources\Res\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectStructuredBuffer.cpp">
+      <Filter>Resources\Res\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectGeometryShader.cpp">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHRenderPlayer.cpp">
+      <Filter>RenderingObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHPlayerBase.cpp">
+      <Filter>RenderingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHComputePlayer.cpp">
+      <Filter>RenderingObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectComputeShader.cpp">
+      <Filter>Resources\Res\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHDirectFbx.cpp">
+      <Filter>Resources\Res\Fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHLightData.cpp">
+      <Filter>RenderingObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Device">
+      <UniqueIdentifier>{57700925-72cd-42e2-b8bd-8c397a02b426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{960422a7-a0de-493e-848d-8ff771052818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Mgr">
+      <UniqueIdentifier>{208b5f14-7e41-44b7-a568-7e89c26c1a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res">
+      <UniqueIdentifier>{5ac22621-275d-4fe5-b19d-e58edcd08f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res\Buffer">
+      <UniqueIdentifier>{9b5b08bd-24ec-45eb-af98-9e5ea2edcb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res\Shader">
+      <UniqueIdentifier>{c24138da-7f1f-4b6c-b35c-57ef3a25c637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res\Texture">
+      <UniqueIdentifier>{fe4f6f91-4079-4640-8ef8-a2e50b06bcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res\StaticSetting">
+      <UniqueIdentifier>{e7fc37aa-10ef-4df2-b463-321f8b44690e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingObject">
+      <UniqueIdentifier>{cd2a76af-0fc4-4cce-ba3c-e25407fcf1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res\Font">
+      <UniqueIdentifier>{eff6c8c9-1d36-4e51-86b7-29780b0a635d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingObject\Player">
+      <UniqueIdentifier>{72ee54c3-7fa6-4ed9-98d3-4ec46764265f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Res\Fbx">
+      <UniqueIdentifier>{6538d0d8-deac-4540-9a8f-35f5a79b3c17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

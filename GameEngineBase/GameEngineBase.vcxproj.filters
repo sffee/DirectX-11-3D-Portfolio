@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="BaseMinimalHeader.h" />
+    <ClInclude Include="GJHGameEngineMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineDebug.h" />
+    <ClInclude Include="GJHNameBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHTypeBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEnginePath.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineDirectory.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineFile.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePre.h" />
+    <ClInclude Include="GJHGameEngineMemory.h" />
+    <ClInclude Include="GJHGameEngineObjectPool.h" />
+    <ClInclude Include="GJHUpdaterBase.h" />
+    <ClInclude Include="GJHStateUpdater.h">
+      <Filter>StateUpdater</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineThread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineRandom.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{11c87b37-b95a-4b03-b6d2-e61b0b2e5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{244fc5a2-4048-4455-8251-3ad9c5ba3a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{9b60b9b8-8704-40ca-9db7-b9a975d42650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{3f824f7b-c4a4-4ce9-9fbd-aad36876fb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{11d201eb-402c-44b0-b0ab-34a07dc43992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateUpdater">
+      <UniqueIdentifier>{0d396811-f419-40f1-bca9-2d3871a45862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{f2ea1788-f042-40ce-aee0-3cfdd92b766e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{ecaa9dc3-5816-4aa2-86dc-2b547f6f841b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GJHGameEngineMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineDirectory.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineFile.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEnginePath.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePre.cpp" />
+    <ClCompile Include="GJHGameEngineSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineThread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineRandom.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
